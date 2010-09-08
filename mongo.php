@@ -48,7 +48,7 @@ public function __toString() {}
  * @param string $dbname
  * @return MongoDB
  */
-public function __get($dbname,$name) {}
+public function __get($dbname) {}
 /**
  * Gets a database
  * @param string $name
@@ -119,7 +119,7 @@ public function __toString() {}
  * @param string $name
  * @return MongoCollection
  */
-public function __get($name,$name) {}
+public function __get($name) {}
 /**
  * Fetches toolkit for dealing with files stored in this database
  * @param string $prefix
@@ -249,7 +249,7 @@ public function __toString() {}
  * @param string $name
  * @return MongoCollection
  */
-public function __get($name,$name) {}
+public function __get($name) {}
 /**
  * Returns this collections name
  * @return string

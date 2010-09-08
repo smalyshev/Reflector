@@ -61,7 +61,7 @@ function writeMethod(ReflectionMethod $method, ReflectionClass $class)
 
 	$data = methodData($method);
 	$params = $data[1];
-	if($params) {
+	if(empty($params)) {
 		$refparams = $method->getParameters();
 		if(!empty($refparams)) {
 			foreach($refparams as $param) {
