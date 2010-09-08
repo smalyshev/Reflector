@@ -1,0 +1,2 @@
+<?php
+define('DOCBOOK', '/path/to/phpdoc/en/trunk/reference/');
